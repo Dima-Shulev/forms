@@ -1,0 +1,22 @@
+{
+  "name": "myproject/myproject",
+  "version": "1.0.1",
+  "description": "My project MVC",
+  "require": {
+    "php": "^8.1",
+    "ext-gd": "*",
+    "guzzlehttp/guzzle": "^7.7",
+    "jquery-form/form": "3.37.0",
+    "illuminate/database": "^v10.0.0",
+    "ext-pdo": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "application/",
+      "Controllers\\": "application/Controllers/",
+      "Models\\": "application/Models/",
+      "Views\\": "views/"
+    }
+  }
+}
